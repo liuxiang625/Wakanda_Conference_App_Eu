@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><permissions>
+<allow action="remove" groupName="Admin" groupID="01000000000000000000000000000000" resource="Model" temporaryForcePermissions="true" type="model"/>
+<allow action="update" groupName="Admin" groupID="01000000000000000000000000000000" resource="Model" temporaryForcePermissions="true" type="model"/>
+<allow action="create" groupName="Admin" groupID="01000000000000000000000000000000" resource="Model.Question" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupName="Admin" groupID="01000000000000000000000000000000" resource="Model.Event" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupName="Admin" groupID="01000000000000000000000000000000" resource="Model.Sponsor" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupName="Admin" groupID="01000000000000000000000000000000" resource="Model.Presenters" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupName="Admin" groupID="01000000000000000000000000000000" resource="Model.Speaker" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupName="Admin" groupID="01000000000000000000000000000000" resource="Model.Session" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupName="Admin" groupID="01000000000000000000000000000000" resource="Model.SessionSurvey" temporaryForcePermissions="false" type="dataClass"/>
+</permissions>
