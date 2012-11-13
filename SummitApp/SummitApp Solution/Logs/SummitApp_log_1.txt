@@ -5325,3 +5325,137 @@
 2012-11-09 15:26:15 [com.wakanda-software.SummitApp.ServerAdmin] INFO - Executing the bootstrap(s)
 2012-11-09 15:26:15 [com.wakanda-software.SummitApp.ServerAdmin] INFO - Bootstrap(s) executed (duration: 9 ms)
 2012-11-09 15:26:15 [com.wakanda-software.SummitApp] INFO - Solution started (duration: 159 ms)
+2012-11-09 15:51:20 [com.wakanda-software.SummitApp.summitApp.JS4D] ERROR - [1] TypeError: 'undefined' is not a function (evaluating 'session.unPromote(token)'), HTTP connection handler
+2012-11-09 15:51:20 [com.wakanda-software.SummitApp.summitApp.JS4D] ERROR - [2] Error evaluating javascript file:///Volumes/Mactintosh HD/Users/xliu/GitHub/Wakanda_Conference_App_Eu/SummitApp/SummitApp Solution/summitApp/bootStraps/startUp.js, HTTP connection handler
+2012-11-09 15:51:21 [com.wakanda-software.SummitApp.summitApp.JS4D] ERROR - [1] TypeError: 'undefined' is not an object (evaluating 'session.promoteWith'), HTTP connection handler
+2012-11-09 15:51:21 [com.wakanda-software.SummitApp.summitApp.JS4D] ERROR - [2] Error evaluating javascript file:///Volumes/Mactintosh HD/Users/xliu/GitHub/Wakanda_Conference_App_Eu/SummitApp/SummitApp Solution/summitApp/bootStraps/startUp.js, HTTP connection handler
+2012-11-12 03:53:16 [com.wakanda-software.SummitApp] INFO - Stopping the solution
+2012-11-12 03:53:16 [com.wakanda-software.SummitApp.summitApp] INFO - Stopping the project
+2012-11-12 03:53:17 [com.wakanda-software.SummitApp.summitApp] INFO - Project stopped (duration: 1059 ms)
+2012-11-12 03:53:17 [com.wakanda-software.SummitApp.ServerAdmin] INFO - Stopping the project
+2012-11-12 03:53:19 [com.wakanda-software.SummitApp.ServerAdmin] INFO - Project stopped (duration: 2059 ms)
+2012-11-12 03:53:19 [com.wakanda-software.SummitApp] INFO - Solution stopped (duration: 3118 ms)
+2012-11-12 03:53:19 [com.wakanda-software.SummitApp] INFO - Closing the solution
+2012-11-12 03:53:19 [com.wakanda-software.SummitApp.summitApp] INFO - Closing the project
+2012-11-12 03:53:19 [com.wakanda-software.SummitApp.summitApp] INFO - Closing the database
+2012-11-12 03:53:19 [com.wakanda-software.SummitApp.summitApp] INFO - Database closed (duration: 405 ms)
+2012-11-12 03:53:19 [com.wakanda-software.SummitApp.summitApp] INFO - Project closed (duration: 406 ms)
+2012-11-12 03:53:19 [com.wakanda-software.SummitApp.ServerAdmin] INFO - Closing the project
+2012-11-12 03:53:19 [com.wakanda-software.SummitApp.ServerAdmin] INFO - Project closed (duration: 1 ms)
+2012-11-12 03:53:20 [com.wakanda-software.SummitApp] INFO - Solution closed (duration: 812 ms)
+2012-11-12 10:22:08 [com.wakanda-software.SummitApp] INFO - Opening the solution
+2012-11-12 10:22:08 [com.wakanda-software.SummitApp] INFO - Opening the users and groups directory
+2012-11-12 10:22:08 [com.wakanda-software.SummitApp] INFO - Users and groups directory opened (duration: 13 ms)
+2012-11-12 10:22:08 [com.wakanda-software.SummitApp.summitApp] INFO - Opening the project
+2012-11-12 10:22:08 [com.wakanda-software.SummitApp.summitApp] INFO - Opening the database
+2012-11-12 10:22:08 [com.wakanda-software.SummitApp.summitApp] INFO - Database opened (duration: 9 ms)
+2012-11-12 10:22:08 [com.wakanda-software.SummitApp.summitApp] INFO - Project opened (duration: 20 ms)
+2012-11-12 10:22:08 [com.wakanda-software.SummitApp.ServerAdmin] INFO - Opening the project
+2012-11-12 10:22:08 [com.wakanda-software.SummitApp.ServerAdmin] INFO - Project opened (duration: 8 ms)
+2012-11-12 10:22:08 [com.wakanda-software.SummitApp] INFO - Solution opened (duration: 75 ms)
+2012-11-12 10:22:08 [com.wakanda-software.SummitApp] INFO - Starting the solution
+2012-11-12 10:22:08 [com.wakanda-software.SummitApp.summitApp] INFO - Starting the project
+2012-11-12 10:22:08 [com.wakanda-software.SummitApp.summitApp] INFO - Starting the HTTP server
+2012-11-12 10:22:08 [com.wakanda-software.SummitApp.summitApp] INFO - HTTP server started (duration: 31 ms)
+2012-11-12 10:22:08 [com.wakanda-software.SummitApp.summitApp] INFO - Project started (duration: 74 ms)
+2012-11-12 10:22:08 [com.wakanda-software.SummitApp.ServerAdmin] INFO - Starting the project
+2012-11-12 10:22:08 [com.wakanda-software.SummitApp.ServerAdmin] INFO - Starting the HTTP server
+2012-11-12 10:22:08 [com.wakanda-software.SummitApp.ServerAdmin] INFO - HTTP server started (duration: 30 ms)
+2012-11-12 10:22:08 [com.wakanda-software.SummitApp.ServerAdmin] INFO - Project started (duration: 77 ms)
+2012-11-12 10:22:08 [com.wakanda-software.SummitApp.summitApp] INFO - Executing the bootstrap(s)
+2012-11-12 10:22:08 [com.wakanda-software.SummitApp.summitApp] INFO - Bootstrap(s) executed (duration: 18 ms)
+2012-11-12 10:22:08 [com.wakanda-software.SummitApp.ServerAdmin] INFO - Executing the bootstrap(s)
+2012-11-12 10:22:08 [com.wakanda-software.SummitApp.ServerAdmin] INFO - Bootstrap(s) executed (duration: 10 ms)
+2012-11-12 10:22:08 [com.wakanda-software.SummitApp] INFO - Solution started (duration: 181 ms)
+2012-11-12 15:10:50 [com.wakanda-software.SummitApp] INFO - Stopping the solution
+2012-11-12 15:10:50 [com.wakanda-software.SummitApp.summitApp] INFO - Stopping the project
+2012-11-12 15:10:51 [com.wakanda-software.SummitApp.summitApp] INFO - Project stopped (duration: 1058 ms)
+2012-11-12 15:10:51 [com.wakanda-software.SummitApp.ServerAdmin] INFO - Stopping the project
+2012-11-12 15:10:53 [com.wakanda-software.SummitApp.ServerAdmin] INFO - Project stopped (duration: 2055 ms)
+2012-11-12 15:10:53 [com.wakanda-software.SummitApp] INFO - Solution stopped (duration: 3114 ms)
+2012-11-12 15:10:53 [com.wakanda-software.SummitApp] INFO - Closing the solution
+2012-11-12 15:10:53 [com.wakanda-software.SummitApp.summitApp] INFO - Closing the project
+2012-11-12 15:10:53 [com.wakanda-software.SummitApp.summitApp] INFO - Closing the database
+2012-11-12 15:10:54 [com.wakanda-software.SummitApp.summitApp] INFO - Database closed (duration: 405 ms)
+2012-11-12 15:10:54 [com.wakanda-software.SummitApp.summitApp] INFO - Project closed (duration: 406 ms)
+2012-11-12 15:10:54 [com.wakanda-software.SummitApp.ServerAdmin] INFO - Closing the project
+2012-11-12 15:10:54 [com.wakanda-software.SummitApp.ServerAdmin] INFO - Project closed (duration: 1 ms)
+2012-11-12 15:10:54 [com.wakanda-software.SummitApp] INFO - Solution closed (duration: 812 ms)
+2012-11-12 15:11:00 [com.wakanda-software.SummitApp] INFO - Opening the solution
+2012-11-12 15:11:00 [com.wakanda-software.SummitApp] INFO - Opening the users and groups directory
+2012-11-12 15:11:00 [com.wakanda-software.SummitApp] INFO - Users and groups directory opened (duration: 11 ms)
+2012-11-12 15:11:00 [com.wakanda-software.SummitApp.summitApp] INFO - Opening the project
+2012-11-12 15:11:00 [com.wakanda-software.SummitApp.summitApp] INFO - Opening the database
+2012-11-12 15:11:00 [com.wakanda-software.SummitApp.summitApp] INFO - Database opened (duration: 8 ms)
+2012-11-12 15:11:00 [com.wakanda-software.SummitApp.summitApp] INFO - Project opened (duration: 18 ms)
+2012-11-12 15:11:00 [com.wakanda-software.SummitApp.ServerAdmin] INFO - Opening the project
+2012-11-12 15:11:00 [com.wakanda-software.SummitApp.ServerAdmin] INFO - Project opened (duration: 5 ms)
+2012-11-12 15:11:00 [com.wakanda-software.SummitApp] INFO - Solution opened (duration: 62 ms)
+2012-11-12 15:11:00 [com.wakanda-software.SummitApp] INFO - Starting the solution
+2012-11-12 15:11:00 [com.wakanda-software.SummitApp.summitApp] INFO - Starting the project
+2012-11-12 15:11:00 [com.wakanda-software.SummitApp.summitApp] INFO - Starting the HTTP server
+2012-11-12 15:11:00 [com.wakanda-software.SummitApp.summitApp] INFO - HTTP server started (duration: 27 ms)
+2012-11-12 15:11:00 [com.wakanda-software.SummitApp.summitApp] INFO - Project started (duration: 68 ms)
+2012-11-12 15:11:00 [com.wakanda-software.SummitApp.ServerAdmin] INFO - Starting the project
+2012-11-12 15:11:01 [com.wakanda-software.SummitApp.ServerAdmin] INFO - Starting the HTTP server
+2012-11-12 15:11:01 [com.wakanda-software.SummitApp.ServerAdmin] INFO - HTTP server started (duration: 28 ms)
+2012-11-12 15:11:01 [com.wakanda-software.SummitApp.ServerAdmin] INFO - Project started (duration: 68 ms)
+2012-11-12 15:11:01 [com.wakanda-software.SummitApp.summitApp] INFO - Executing the bootstrap(s)
+2012-11-12 15:11:01 [com.wakanda-software.SummitApp.summitApp] INFO - Bootstrap(s) executed (duration: 16 ms)
+2012-11-12 15:11:01 [com.wakanda-software.SummitApp.ServerAdmin] INFO - Executing the bootstrap(s)
+2012-11-12 15:11:01 [com.wakanda-software.SummitApp.ServerAdmin] INFO - Bootstrap(s) executed (duration: 9 ms)
+2012-11-12 15:11:01 [com.wakanda-software.SummitApp] INFO - Solution started (duration: 163 ms)
+2012-11-12 15:37:06 [com.wakanda-software.SummitApp.summitApp] INFO - Closing the database
+2012-11-12 15:37:06 [com.wakanda-software.SummitApp.summitApp] INFO - Database closed (duration: 304 ms)
+2012-11-12 15:37:06 [com.wakanda-software.SummitApp.summitApp] INFO - Opening the database
+2012-11-12 15:37:06 [com.wakanda-software.SummitApp.summitApp] INFO - Database opened (duration: 9 ms)
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp] INFO - {"data":["Welcome Coffee"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp.console] INFO - {"data":["Welcome Coffee"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp] INFO - {"data":["Wakanday Keynote"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp.console] INFO - {"data":["Wakanday Keynote"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp] INFO - {"data":["Distant Data: Wakanda & Wakanda, Wakanda & 4D"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp.console] INFO - {"data":["Distant Data: Wakanda & Wakanda, Wakanda & 4D"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp] INFO - {"data":["Wakanda & MySQL"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp.console] INFO - {"data":["Wakanda & MySQL"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp] INFO - {"data":["Building a Multi-Platform Application"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp.console] INFO - {"data":["Building a Multi-Platform Application"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp] INFO - {"data":["All About Widgets"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp.console] INFO - {"data":["All About Widgets"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp] INFO - {"data":["Create Your First Business Application"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp.console] INFO - {"data":["Create Your First Business Application"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp] INFO - {"data":["Wakanda and the Top 5 Security Risks "]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp.console] INFO - {"data":["Wakanda and the Top 5 Security Risks "]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp] INFO - {"data":["Data Models – Data Modeling Examples"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp.console] INFO - {"data":["Data Models – Data Modeling Examples"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp] INFO - {"data":["jQuery: Wakanda’s Swiss Army Knife"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp.console] INFO - {"data":["jQuery: Wakanda’s Swiss Army Knife"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp] INFO - {"data":["Enhancing Your Web Application’s Interface"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp.console] INFO - {"data":["Enhancing Your Web Application’s Interface"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp] INFO - {"data":["JavaScript 101"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp.console] INFO - {"data":["JavaScript 101"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp] INFO - {"data":["Debugging Your Wakanda Application"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp.console] INFO - {"data":["Debugging Your Wakanda Application"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp] INFO - {"data":["Lunch"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp.console] INFO - {"data":["Lunch"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp] INFO - {"data":["Datasources from the Master"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp.console] INFO - {"data":["Datasources from the Master"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp] INFO - {"data":["Demo of a Live Application"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp.console] INFO - {"data":["Demo of a Live Application"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp] INFO - {"data":["Git Heaven with Wakanda "]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp.console] INFO - {"data":["Git Heaven with Wakanda "]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp] INFO - {"data":["Security for your Wakanda Application"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp.console] INFO - {"data":["Security for your Wakanda Application"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp] INFO - {"data":["JavaScript 201"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp.console] INFO - {"data":["JavaScript 201"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp] INFO - {"data":["Beyond the Basics: Some of Wakanda’s Lesser-Known Features"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp.console] INFO - {"data":["Beyond the Basics: Some of Wakanda’s Lesser-Known Features"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp] INFO - {"data":["Wakanda Q&A with Laurent Ribardière, Laurent Esnault & the 4D Management Team"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp.console] INFO - {"data":["Wakanda Q&A with Laurent Ribardière, Laurent Esnault & the 4D Management Team"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp] INFO - {"data":["Coffee Break"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp.console] INFO - {"data":["Coffee Break"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp] INFO - {"data":["Wakanda, AngularJS & Chrome Web Apps"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp.console] INFO - {"data":["Wakanda, AngularJS & Chrome Web Apps"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp] INFO - {"data":["Agile Development with Wakanda and JavaScript"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp.console] INFO - {"data":["Agile Development with Wakanda and JavaScript"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp] INFO - {"data":["Deploying Wakanda Applications to the Amazon Cloud"]}, HTTP connection handler
+2012-11-12 17:26:35 [com.wakanda-software.SummitApp.summitApp.console] INFO - {"data":["Deploying Wakanda Applications to the Amazon Cloud"]}, HTTP connection handler
