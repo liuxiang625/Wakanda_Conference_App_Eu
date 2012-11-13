@@ -228,6 +228,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 		                            if (typeof sessionIDSet[sessionTime] === "undefined") sessionIDSet[sessionTime] = [];
 		                            sessionIDSet[sessionTime].push(sessionItem.ID.getValue());
 		                            var seperator;
+		                            if (typeof tagsSet[sessionTime] === "undefined") tagsSet[sessionTime] = "";
 		                            tagsSet[sessionTime].length > 0 ? seperator = ',' : seperator = "";
 		                            (typeof tagsSet[sessionTime] === "undefined") ? tagsSet[sessionTime] = "" : tagsSet[sessionTime] = tagsSet[sessionTime].concat(seperator + ' ' + sessionFirstTag);
 		                        }
@@ -235,7 +236,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 		                    if (sessionDate == currentDate & sessionTimes.indexOf(sessionTime) == -1) {
 		                        sessionTimes.push(sessionTime);
 		                        if (sessionItem.isActivity.getValue()) {
-		                            $('#timSlotListView').append('<li role="heading" data-role="list-divider" ><h3 style="white-space:normal">' + sessionTime + '  ' + sessionItem.name.getValue() + ' at ' + sessionItem.room.getValue() + '</h3></li>');
+		                            $('#timSlotListView').append('<li role="heading" data-role="list-divider" ><h3 style="white-space:normal">' + sessionTime + '  ' + sessionItem.name.getValue() + (sessionItem.room.getValue()? ' at ' + sessionItem.room.getValue():'') + '</h3></li>');
 		                        }
 		                        else {
 		                            $('#timSlotListView').append('<li data-theme="c" ><a class="loadSessions" id="' + sessionItem.ID.getValue() + '" class=""  data-transition="slide" >' + '<h3>' + sessionTime + '</h3><p class="' + sessionTime + '">' + sessionFirstTag + '</p></a></li>');
