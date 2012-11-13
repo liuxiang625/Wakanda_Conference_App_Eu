@@ -72,11 +72,10 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 		});
 
 		var dayDescription = {
-			'10/23/2012':'4D Summit Pre-Class',
-			'10/24/2012':'4D Summit keynotes  breakout sessions',
-			'10/25/2012':'4D Summit keynotes  breakout sessions',
-			'10/26/2012':'JS.everyWhere(2012)',
-			'10/27/2012':'Wakanday 2012'	
+			'11/14/2012':'4D Summit Pre-Class',
+			'11/15/2012':'4D Summit keynotes  breakout sessions',
+			'11/17/2012':'JS.everyWhere(2012)',
+			'11/16/2012':'Wakanday 2012'	
 		}
 
 
@@ -143,7 +142,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 		                        //Get Sponsors collection watch for performance
 		                        $('#eventSponsors').empty();
 		                        if (eventItemEvent.entity.name.getValue().indexOf('4D') != -1){
-		                        	summitSponsorsImageArray = ['styles/images/Sponsors/sponsor-logo-hm.png','styles/images/Sponsors/sponsor-logo-paypal.png',  'styles/images/Sponsors/sponsor-logo-objsys.png'];
+		                        	summitSponsorsImageArray = ['styles/images/Sponsors/logo-bluecompany.png', 'styles/images/Sponsors/sponsor-logo-hm.png'];
 		                        //var sponsorsCollectionRel = eventItemEvent.entity.sponsors.relEntityCollection;
 		                        
 //		                        sponsorsCollectionRel.forEach({  //toArray() returns all 19 instead of 3 wile  sponsorsCollectionRel.length us 3, need verification
