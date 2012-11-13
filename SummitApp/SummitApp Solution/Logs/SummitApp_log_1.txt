@@ -7420,3 +7420,7 @@
 2012-11-13 15:05:26 [com.wakanda-software.SummitApp.summitApp] INFO - Database closed (duration: 405 ms)
 2012-11-13 15:05:26 [com.wakanda-software.SummitApp.summitApp] INFO - Opening the database
 2012-11-13 15:05:26 [com.wakanda-software.SummitApp.summitApp] INFO - Database opened (duration: 11 ms)
+2012-11-13 16:44:02 [com.wakanda-software.SummitApp.summitApp] INFO - {"data":["You want to do WHAT with JavaScript!?!: 1"]}, HTTP connection handler
+2012-11-13 16:44:02 [com.wakanda-software.SummitApp.summitApp.console] INFO - {"data":["You want to do WHAT with JavaScript!?!: 1"]}, HTTP connection handler
+2012-11-13 16:44:06 [com.wakanda-software.SummitApp.summitApp] INFO - {"data":["item to remove: You want to do WHAT with JavaScript!?!"]}, HTTP connection handler
+2012-11-13 16:44:06 [com.wakanda-software.SummitApp.summitApp.console] INFO - {"data":["item to remove: You want to do WHAT with JavaScript!?!"]}, HTTP connection handler

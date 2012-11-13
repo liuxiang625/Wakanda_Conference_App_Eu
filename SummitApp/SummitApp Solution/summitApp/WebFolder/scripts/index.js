@@ -226,7 +226,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 		                    sessionsSet[sessionItem.ID.getValue()] = sessionItem.name.getValue();
 		                    if (sessionItem.tags.getValue()) {
 		                        sessionFirstTag = sessionItem.tags.getValue().match(/,/) ? sessionItem.tags.getValue().split(',')[0] : sessionItem.tags.getValue();
-		                        if (sessionTimes.indexOf(sessionTime) != -1) {
+		                        if (sessionDate == currentDate & sessionTimes.indexOf(sessionTime) != -1) {
 		                            if (typeof sessionIDSet[sessionTime] === "undefined") sessionIDSet[sessionTime] = [];
 		                            sessionIDSet[sessionTime].push(sessionItem.ID.getValue());
 		                            var seperator;
