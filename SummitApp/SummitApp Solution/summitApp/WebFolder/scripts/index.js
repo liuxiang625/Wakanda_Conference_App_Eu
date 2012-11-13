@@ -75,7 +75,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 			'11/14/2012':'4D Summit Pre-Class',
 			'11/15/2012':'4D Summit keynotes  breakout sessions',
 			'11/17/2012':'JS.everyWhere(2012)',
-			'11/16/2012':'Wakanday 2012'	
+			'11/16/2012':'4D Summit breakout sessions + Wakanday 2012'	
 		}
 
 
@@ -86,8 +86,8 @@ WAF.onAfterInit = function onAfterInit() {// @lock
   		}
 
 		//preload all sponsor pics:
-		var allSponsorsImageArray = ['styles/images/Sponsors/logo-bluecompany.png', 'styles/images/Sponsors/sponsor-logo-hm.png',  'styles/images/Sponsors/aws2.png', 'styles/images/Sponsors/logo-mozilla-firefox.png', 'styles/images/Sponsors/logo-programmez.png','styles/images/Sponsors/infoqlogo.gif','styles/images/Sponsors/logo-moonbar.png', 'styles/images/Sponsors/logo-human-coders.jpg',  'styles/images/Sponsors/logo-NoSQLMatters-128x128.png',  'styles/images/Sponsors/logo-accessiweb.png', 'styles/images/Sponsors/SupInfoLogo.png', 'styles/images/Sponsors/web5.png', 'styles/images/Sponsors/tumbler.png', 'styles/images/Sponsors/logo-salsita.png','styles/images/Sponsors/logo-W3C.png'   ];// Array of images:
-		var summitSponsorsImageArray = ['styles/images/Sponsors/aws2.png', 'styles/images/Sponsors/logo-mozilla-firefox.png', 'styles/images/Sponsors/logo-programmez.png','styles/images/Sponsors/infoqlogo.png','styles/images/Sponsors/logo-moonbar.png', 'styles/images/Sponsors/logo-human-coders.png',  'styles/images/Sponsors/logo-NoSQLMatters-128x128.jpg',  'styles/images/Sponsors/logo-accessiweb.png', 'styles/images/Sponsors/SupInfoLogo.png', 'styles/images/Sponsors/web5.png', 'styles/images/Sponsors/tumbler.png', 'styles/images/Sponsors/logo-salsita.png','styles/images/Sponsors/logo-W3C.png'];
+		var allSponsorsImageArray = ['styles/images/Sponsors/logo-bluecompany.png', 'styles/images/Sponsors/sponsor-logo-hm.png',  'styles/images/Sponsors/aws2.png', 'styles/images/Sponsors/logo-mozilla-firefox.png', 'styles/images/Sponsors/logo-programmez.png','styles/images/Sponsors/infoqlogo.gif','styles/images/Sponsors/logo-moonbar.png', 'styles/images/Sponsors/logo-human-coders.jpg',  'styles/images/Sponsors/logo-NoSQLMatters-128x128.jpg',  'styles/images/Sponsors/logo-accessiweb.png', 'styles/images/Sponsors/SupInfoLogo.png', 'styles/images/Sponsors/web5.png', 'styles/images/Sponsors/tumbler.png', 'styles/images/Sponsors/logo-salsita.png','styles/images/Sponsors/logo-W3C.png'   ];// Array of images:
+		var summitSponsorsImageArray = ['styles/images/Sponsors/aws2.png', 'styles/images/Sponsors/logo-mozilla-firefox.png', 'styles/images/Sponsors/logo-programmez.png','styles/images/Sponsors/infoqlogo.gif','styles/images/Sponsors/logo-moonbar.png', 'styles/images/Sponsors/logo-human-coders.jpg',  'styles/images/Sponsors/logo-NoSQLMatters-128x128.jpg',  'styles/images/Sponsors/logo-accessiweb.png', 'styles/images/Sponsors/SupInfoLogo.png', 'styles/images/Sponsors/web5.png', 'styles/images/Sponsors/tumbler.png', 'styles/images/Sponsors/logo-salsita.png','styles/images/Sponsors/logo-W3C.png'];
 		$.each(allSponsorsImageArray, function (i, val) {
   			$('<img/>').attr('class','allSponsorImage').attr('src', val).attr('width',150).attr('height',60).appendTo('#allSponsors');
 		});
@@ -157,7 +157,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 //		                        });
 		                        }
 		                        else {
-		                        	summitSponsorsImageArray = ['styles/images/Sponsors/aws2.png', 'styles/images/Sponsors/logo-mozilla-firefox.png', 'styles/images/Sponsors/logo-programmez.png','styles/images/Sponsors/infoqlogo.png','styles/images/Sponsors/logo-moonbar.png', 'styles/images/Sponsors/logo-human-coders.png', 'styles/images/Sponsors/logo-telerik.png', 'styles/images/Sponsors/logo-NoSQLMatters-128x128.png', 'styles/images/Sponsors/oreilly.png', 'styles/images/Sponsors/logo-accessiweb.png', 'styles/images/Sponsors/SupInfoLogo.png', 'styles/images/Sponsors/web5.png', 'styles/images/Sponsors/tumbler.png', 'styles/images/Sponsors/logo-salsita.png','styles/images/Sponsors/logo-W3C.png'];
+		                        	summitSponsorsImageArray = ['styles/images/Sponsors/aws2.png', 'styles/images/Sponsors/logo-mozilla-firefox.png', 'styles/images/Sponsors/logo-programmez.png','styles/images/Sponsors/infoqlogo.gif','styles/images/Sponsors/logo-moonbar.png', 'styles/images/Sponsors/logo-human-coders.png', 'styles/images/Sponsors/logo-NoSQLMatters-128x128.jpg', 'styles/images/Sponsors/logo-accessiweb.png', 'styles/images/Sponsors/SupInfoLogo.png', 'styles/images/Sponsors/web5.png', 'styles/images/Sponsors/tumbler.png', 'styles/images/Sponsors/logo-salsita.png','styles/images/Sponsors/logo-W3C.png'];
 		                        }
 		         				$.each(summitSponsorsImageArray, function (i, val) {
   								$('<img/>').attr('class','allSponsorImage').attr('src', val).attr('width',150).attr('height',60).appendTo('#eventSponsors');
@@ -166,6 +166,8 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 		                        
 		                        //if (localStorageAvailable) localStorage.setItem("page1", $('#daysListView').html());
 		                        var sessionsCollectionRel = eventItemEvent.entity.sessions.relEntityCollection;
+//		                        sesssionCollection.sessionEntityCollection = sessionsCollectionRel;
+//		                        sesssionCollection.available = true;
 		                        sessionsCollectionRel.orderBy("startTime", {
 		                            onSuccess: function(event) { // handle anything special here
 		                                sesssionCollection.sessionEntityCollection = event.entityCollection;
