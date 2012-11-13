@@ -86,8 +86,8 @@ WAF.onAfterInit = function onAfterInit() {// @lock
   		}
 
 		//preload all sponsor pics:
-		var allSponsorsImageArray = ['styles/images/Sponsors/sponsor-logo-hm.png','styles/images/Sponsors/sponsor-logo-paypal.png',  'styles/images/Sponsors/sponsor-logo-objsys.png', 'styles/images/Sponsors/ebay.png', 'styles/images/Sponsors/redhat.png', 'styles/images/Sponsors/openshift.png','styles/images/Sponsors/pubnub.png','styles/images/Sponsors/logo-mozilla-firefox.png', 'styles/images/Sponsors/logo-mongolab.png', 'styles/images/Sponsors/logo-telerik.png', 'styles/images/Sponsors/logo-kendo.png', 'styles/images/Sponsors/oreilly.png', 'styles/images/Sponsors/qcon-transparent-background.png', 'styles/images/Sponsors/looprecur.png', 'styles/images/Sponsors/logo-agile-diagnosis.png', 'styles/images/Sponsors/logo-cue.png', 'styles/images/Sponsors/logo-W3C.png',   ];// Array of images:
-		var summitSponsorsImageArray = ['styles/images/Sponsors/ebay.png', 'styles/images/Sponsors/redhat.png', 'styles/images/Sponsors/openshift.png','styles/images/Sponsors/pubnub.png','styles/images/Sponsors/logo-mozilla-firefox.png', 'styles/images/Sponsors/logo-mongolab.png', 'styles/images/Sponsors/logo-telerik.png', 'styles/images/Sponsors/logo-kendo.png', 'styles/images/Sponsors/oreilly.png', 'styles/images/Sponsors/qcon-transparent-background.png', 'styles/images/Sponsors/looprecur.png', 'styles/images/Sponsors/logo-agile-diagnosis.png', 'styles/images/Sponsors/logo-cue.png', 'styles/images/Sponsors/logo-W3C.png'];
+		var allSponsorsImageArray = ['styles/images/Sponsors/logo-bluecompany.png', 'styles/images/Sponsors/sponsor-logo-hm.png',  'styles/images/Sponsors/aws2.png', 'styles/images/Sponsors/logo-mozilla-firefox.png', 'styles/images/Sponsors/logo-programmez.png','styles/images/Sponsors/infoqlogo.gif','styles/images/Sponsors/logo-moonbar.png', 'styles/images/Sponsors/logo-human-coders.jpg',  'styles/images/Sponsors/logo-NoSQLMatters-128x128.png',  'styles/images/Sponsors/logo-accessiweb.png', 'styles/images/Sponsors/SupInfoLogo.png', 'styles/images/Sponsors/web5.png', 'styles/images/Sponsors/tumbler.png', 'styles/images/Sponsors/logo-salsita.png','styles/images/Sponsors/logo-W3C.png'   ];// Array of images:
+		var summitSponsorsImageArray = ['styles/images/Sponsors/aws2.png', 'styles/images/Sponsors/logo-mozilla-firefox.png', 'styles/images/Sponsors/logo-programmez.png','styles/images/Sponsors/infoqlogo.png','styles/images/Sponsors/logo-moonbar.png', 'styles/images/Sponsors/logo-human-coders.png',  'styles/images/Sponsors/logo-NoSQLMatters-128x128.jpg',  'styles/images/Sponsors/logo-accessiweb.png', 'styles/images/Sponsors/SupInfoLogo.png', 'styles/images/Sponsors/web5.png', 'styles/images/Sponsors/tumbler.png', 'styles/images/Sponsors/logo-salsita.png','styles/images/Sponsors/logo-W3C.png'];
 		$.each(allSponsorsImageArray, function (i, val) {
   			$('<img/>').attr('class','allSponsorImage').attr('src', val).attr('width',150).attr('height',60).appendTo('#allSponsors');
 		});
@@ -141,7 +141,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 		                        }
 		                        //Get Sponsors collection watch for performance
 		                        $('#eventSponsors').empty();
-		                        if (eventItemEvent.entity.name.getValue().indexOf('4D') != -1){
+		                        if (eventItemEvent.entity.name.getValue().indexOf('4D') != -1 | eventItemEvent.entity.name.getValue().indexOf('Wakanday') != -1){
 		                        	summitSponsorsImageArray = ['styles/images/Sponsors/logo-bluecompany.png', 'styles/images/Sponsors/sponsor-logo-hm.png'];
 		                        //var sponsorsCollectionRel = eventItemEvent.entity.sponsors.relEntityCollection;
 		                        
@@ -157,7 +157,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 //		                        });
 		                        }
 		                        else {
-		                        	summitSponsorsImageArray = ['styles/images/Sponsors/ebay.png', 'styles/images/Sponsors/redhat.png', 'styles/images/Sponsors/openshift.png','styles/images/Sponsors/pubnub.png','styles/images/Sponsors/logo-mozilla-firefox.png', 'styles/images/Sponsors/logo-mongolab.png', 'styles/images/Sponsors/logo-telerik.png', 'styles/images/Sponsors/logo-kendo.png', 'styles/images/Sponsors/oreilly.png', 'styles/images/Sponsors/qcon-transparent-background.png', 'styles/images/Sponsors/looprecur.png', 'styles/images/Sponsors/logo-agile-diagnosis.png', 'styles/images/Sponsors/logo-cue.png', 'styles/images/Sponsors/logo-W3C.png'];
+		                        	summitSponsorsImageArray = ['styles/images/Sponsors/aws2.png', 'styles/images/Sponsors/logo-mozilla-firefox.png', 'styles/images/Sponsors/logo-programmez.png','styles/images/Sponsors/infoqlogo.png','styles/images/Sponsors/logo-moonbar.png', 'styles/images/Sponsors/logo-human-coders.png', 'styles/images/Sponsors/logo-telerik.png', 'styles/images/Sponsors/logo-NoSQLMatters-128x128.png', 'styles/images/Sponsors/oreilly.png', 'styles/images/Sponsors/logo-accessiweb.png', 'styles/images/Sponsors/SupInfoLogo.png', 'styles/images/Sponsors/web5.png', 'styles/images/Sponsors/tumbler.png', 'styles/images/Sponsors/logo-salsita.png','styles/images/Sponsors/logo-W3C.png'];
 		                        }
 		         				$.each(summitSponsorsImageArray, function (i, val) {
   								$('<img/>').attr('class','allSponsorImage').attr('src', val).attr('width',150).attr('height',60).appendTo('#eventSponsors');
