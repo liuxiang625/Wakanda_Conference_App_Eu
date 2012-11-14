@@ -89,7 +89,12 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 		var allSponsorsImageArray = ['styles/images/Sponsors/logo-bluecompany.png', 'styles/images/Sponsors/sponsor-logo-hm.png',  'styles/images/Sponsors/aws2.png', 'styles/images/Sponsors/logo-mozilla-firefox.png', 'styles/images/Sponsors/logo-programmez.png','styles/images/Sponsors/infoqlogo.gif','styles/images/Sponsors/logo-moonbar.png', 'styles/images/Sponsors/logo-human-coders.jpg',  'styles/images/Sponsors/logo-NoSQLMatters-128x128.jpg',  'styles/images/Sponsors/logo-accessiweb.png', 'styles/images/Sponsors/oreilly.png', 'styles/images/Sponsors/logo-rudebaguette.png','styles/images/Sponsors/SupInfoLogo.png', 'styles/images/Sponsors/web5.png', 'styles/images/Sponsors/tumbler.png', 'styles/images/Sponsors/logo-salsita.png','styles/images/Sponsors/logo-W3C.png'   ];// Array of images:
 		var summitSponsorsImageArray = ['styles/images/Sponsors/aws2.png', 'styles/images/Sponsors/logo-mozilla-firefox.png', 'styles/images/Sponsors/logo-programmez.png','styles/images/Sponsors/infoqlogo.gif','styles/images/Sponsors/logo-moonbar.png', 'styles/images/Sponsors/logo-human-coders.jpg',  'styles/images/Sponsors/logo-NoSQLMatters-128x128.jpg',  'styles/images/Sponsors/logo-accessiweb.png', 'styles/images/Sponsors/oreilly.png', 'styles/images/Sponsors/logo-rudebaguette.png','styles/images/Sponsors/SupInfoLogo.png', 'styles/images/Sponsors/web5.png', 'styles/images/Sponsors/tumbler.png', 'styles/images/Sponsors/logo-salsita.png','styles/images/Sponsors/logo-W3C.png'];
 		$.each(allSponsorsImageArray, function (i, val) {
-  			$('<img/>').attr('class','allSponsorImage').attr('src', val).attr('width',150).attr('height',60).appendTo('#allSponsors');
+			if (val.indexOf('web5') != -1 | val.indexOf('NoSQLMatters') != -1 ) {
+			         					$('<img/>').attr('class','allSponsorImage').attr('src', val).attr('width',60).attr('height',60).attr('margin-left',40).appendTo('#allSponsors');
+			         				}
+			         				else {
+			         					$('<img/>').attr('class','allSponsorImage').attr('src', val).attr('width',150).attr('height',60).appendTo('#allSponsors');
+			         				}
 		});
 //		$.each(summitSponsorsImageArray, function (i, val) {
 //  			$('<img/>').attr('src', val).attr('width',150).attr('height',60).appendTo('#eventSponsors');
@@ -157,10 +162,15 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 //		                        });
 		                        }
 		                        else {
-		                        	summitSponsorsImageArray = ['styles/images/Sponsors/aws2.png', 'styles/images/Sponsors/logo-mozilla-firefox.png', 'styles/images/Sponsors/logo-programmez.png','styles/images/Sponsors/infoqlogo.gif','styles/images/Sponsors/logo-moonbar.png', 'styles/images/Sponsors/logo-human-coders.png', 'styles/images/Sponsors/logo-NoSQLMatters-128x128.jpg', 'styles/images/Sponsors/logo-accessiweb.png',  'styles/images/Sponsors/oreilly.png', 'styles/images/Sponsors/logo-rudebaguette.png','styles/images/Sponsors/SupInfoLogo.png', 'styles/images/Sponsors/web5.png', 'styles/images/Sponsors/tumbler.png', 'styles/images/Sponsors/logo-salsita.png','styles/images/Sponsors/logo-W3C.png'];
+		                        	summitSponsorsImageArray = ['styles/images/Sponsors/aws2.png', 'styles/images/Sponsors/logo-mozilla-firefox.png', 'styles/images/Sponsors/logo-programmez.png','styles/images/Sponsors/infoqlogo.gif','styles/images/Sponsors/logo-moonbar.png', 'styles/images/Sponsors/logo-human-coders.jpg', 'styles/images/Sponsors/logo-NoSQLMatters-128x128.jpg', 'styles/images/Sponsors/logo-accessiweb.png',  'styles/images/Sponsors/oreilly.png', 'styles/images/Sponsors/logo-rudebaguette.png','styles/images/Sponsors/SupInfoLogo.png', 'styles/images/Sponsors/web5.png', 'styles/images/Sponsors/tumbler.png', 'styles/images/Sponsors/logo-salsita.png','styles/images/Sponsors/logo-W3C.png'];
 		                        }
 		         				$.each(summitSponsorsImageArray, function (i, val) {
-  								$('<img/>').attr('class','allSponsorImage').attr('src', val).attr('width',150).attr('height',60).appendTo('#eventSponsors');
+			         				if (val.indexOf('web5') != -1 | val.indexOf('NoSQLMatters') != -1 ) {
+			         					$('<img/>').attr('class','allSponsorImage').attr('src', val).attr('width',60).attr('height',60).attr('padding',40).appendTo('#eventSponsors');
+			         				}
+			         				else {
+			         					$('<img/>').attr('class','allSponsorImage').attr('src', val).attr('width',150).attr('height',60).appendTo('#eventSponsors');
+			         				}
 								});
 								$('#eventSponsors').cycle();
 		                        
